@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# DVC cache only (keep .dvc files!)
+.dvc/tmp/
+.dvc/cache/
+
+# DVC-tracked folders (ignore actual data, but not metadata)
+data/
+processed/
+models/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+/data
+/processed
+/models
