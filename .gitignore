@@ -9,6 +9,8 @@ venv/
 data/
 processed/
 models/
+mlruns/
+
 
 # Logs and temp files
 *.log
